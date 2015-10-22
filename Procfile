@@ -1,1 +1,1 @@
-web: gunicorn qandu_landing.wsgi --log-file -
+web: gunicorn qandu_meek.wsgi --log-file -
