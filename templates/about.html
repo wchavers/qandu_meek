@@ -1,8 +1,7 @@
-{% extends 'base.html' %}
+{% extends "base.html" %}
 {% block content %}
-<form method="post" action="">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <button type="submit">Submit</button>
-</form>
+<div class="jumbotron">
+    <h1>About Me</h1>
+    <p>My name is William A. Chavers IV. I was born in the Bronx, NY. I attend Quinnipiac Univeristy, were I'm currently a senior Computer Information Systems major. A few of my hobbies are playing football, watching soccer, and listening to music. Thank you for visiting my website!</p>
+</div>
 {% endblock %}
